@@ -31,13 +31,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="hd-honda-grill-wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="zbB-o0-JAG">
+                                <rect key="frame" x="0.0" y="448" width="414" height="448"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="m3V-1S-bBx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0t2-94-zZN"/>
                             <constraint firstItem="cBs-rZ-PoK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Chc-4A-0rn"/>
+                            <constraint firstItem="zbB-o0-JAG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OtP-Ys-Gjm"/>
                             <constraint firstItem="m3V-1S-bBx" firstAttribute="top" secondItem="cBs-rZ-PoK" secondAttribute="bottom" constant="30" id="WbY-8j-Vfd"/>
+                            <constraint firstItem="zbB-o0-JAG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aPB-ej-aTg"/>
                             <constraint firstItem="cBs-rZ-PoK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="dZs-CV-bpj"/>
+                            <constraint firstItem="zbB-o0-JAG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="exz-rQ-0hA"/>
+                            <constraint firstAttribute="bottom" secondItem="zbB-o0-JAG" secondAttribute="bottom" id="wf5-Ry-i97"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,4 +55,7 @@
             <point key="canvasLocation" x="-65.217391304347828" y="80.357142857142847"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hd-honda-grill-wallpaper" width="994" height="777"/>
+    </resources>
 </document>
